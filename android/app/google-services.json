@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "510280528633",
+    "project_id": "app-bebel",
+    "storage_bucket": "app-bebel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510280528633:android:a6b5d725749b65a70b6828",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_8"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEmu51CUTVJV_ort7RIN0D4JvEdvtBtWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

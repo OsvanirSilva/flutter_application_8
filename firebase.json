@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "app-bebel",
+          "appId": "1:510280528633:android:a6b5d725749b65a70b6828",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "app-bebel",
+          "configurations": {
+            "android": "1:510280528633:android:a6b5d725749b65a70b6828",
+            "ios": "1:510280528633:ios:618da1e5904c0d930b6828",
+            "web": "1:510280528633:web:794d8964c7b75f250b6828"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
