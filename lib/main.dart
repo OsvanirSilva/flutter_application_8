@@ -32,7 +32,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Tarefas',
+      title: 'App',
       initialRoute: 'login',
       routes: {
         'login': (context) => LoginView(),
